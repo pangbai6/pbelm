@@ -1,3 +1,9 @@
+/**
+ * 变量：elmck: 必填，账号cookie
+ * cron: 2 0,8 * * *
+ */
+
+const $ = new Env('饿了么助力');
 const {
   sign,
   getToken,

@@ -1,3 +1,14 @@
+/**
+ * @kolikow
+ * 变量：elmck: 必填，账号cookie
+ * cron: 0 9,18 * * *
+ * 每天1-2次即可
+ * elmck: 'unb=xxx;cookie2=xxxUSERID=xx;SID=xxx;wxUid=xx;'
+ * export appToken='AT_xxx' #wxpusher的appToken
+ * export myUid='UID_xxx' #自己的uid，接收通知
+ * export tunnel='elm.xxx.xyz' #掉线重新登录地址
+ */
+const $ = new Env('饿了么CK检测');
 const {
     getEnvsByName,
     DisableCk,
